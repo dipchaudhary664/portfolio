@@ -14,7 +14,7 @@ export default function About() {
       <div className="flex flex-col gap-10 md:flex-row items-center">
         <div className="h-64 w-64 shrink-0 bg-zinc-800 rounded-full overflow-hidden">
           <Image
-            src="/deep.jpg"
+            src="/coding.gif"
             width={500}
             height={500}
             alt="Deep"
