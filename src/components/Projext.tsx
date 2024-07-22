@@ -64,16 +64,10 @@ function ProjectCard({ project }: IProjectCard) {
         <p className="text-zinc-400 text-sm">{project.description}</p>
         <div className="flex gap-4 mt-4">
           <CustomLink
-            href="https://github.com/dipchaudhary664"
-            target="_blank"
-            linkType="secondary"
-          >
-            Source Code
-          </CustomLink>
-          <CustomLink
             href={project.liveAt}
             target="_blank"
             linkType="secondary"
+            className="px-10"
           >
             Live At
           </CustomLink>

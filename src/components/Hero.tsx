@@ -9,12 +9,9 @@ export default function Hero() {
         <div>
           <p className="text-lg mb-1">Hi 👋🏽 , I am</p>
           <h1 className="font-title tracking-wider text-3xl sm:text-6xl -ml-0.5">
-            Frontend Developer
+            Frontend / Mobile Developer
           </h1>
-          <h2 className="font-title tracking-wider text-3xl sm:text-5xl -ml-0.5 text-violet-900 mt-1">
-            Mobile Developer
-          </h2>
-          <h3 className="text-2xl font-normal text-purple-800">
+          <h3 className="text-2xl text-slate-500 font-normal">
             Upgrade your life in silence, and I love what I do.
           </h3>
           <p className="text-zinc-300 my-3">
